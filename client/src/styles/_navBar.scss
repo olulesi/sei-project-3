@@ -1,0 +1,28 @@
+.ui.menu:first-child{
+  margin: 0;
+  // // background-image: url('../assets/welcome-banner.jpeg');
+  // background-image: linear-gradient(62deg, FA9A81 0%, #bcdea6 100%);
+  background: transparent;
+  box-shadow: none ;
+}
+
+.ui.menu>.container, .ui.menu>.grid {
+  border-width: 0px;
+    
+}
+
+.ui.menu {
+  border-bottom: 0px none !important;
+}
+
+// .ui.menu.fixed {
+//   //margin-bottom: 50px;
+//   //margin: 0px auto 100px;
+// }
+
+.ui.fixed.menu.active {
+  margin-bottom: 200px;
+  background-color:white;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  
+}

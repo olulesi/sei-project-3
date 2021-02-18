@@ -1,0 +1,51 @@
+
+
+.homepage {
+  background-image: url('https://lhalondon.com/media/2019/08/belsize-area-guide-blog.jpg');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.fade-in{
+  animation: slide-in 1.3s ease;
+}
+
+.title-header {
+  color: white;
+  text-align: center;
+}
+
+.home-container {
+  margin: 0 0 200px 0;
+}
+
+.header {
+  // margin: calc(15rem - .14285714em) 0 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 3em;
+  }
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+// .homepage-button {
+//   background-color: pink;
+// }
+

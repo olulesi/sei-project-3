@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import '_slick.scss';
+@import '_slickTheme.scss';
+
+
+//* ANIMATION, FLY IN
+.fly-in{
+  animation: fly-in 1.5s ease;
+}
+
+//* WELCOME, NAME SECTION
+
+//ANIMATION CHANGE FOR THE INDEX BANNER
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  background-image: url('../assets/welcome-banner.jpeg');
+  // animation: change 5s ease-in-out infinite;
+  // background-color: #8EC5FC;
+  // background-image: linear-gradient(62deg, #cbeaf6 0%, #E0C3FC 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.ui.container.fly-in.no-padding {
+  width: 100%;
+  padding: 0;
+}
+
+.welcome-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+//* MAIN HOMEPAGE WRAPPER (FEAT, MAP, RECOMMENDED, CATEGORIES SECTIONS)
+
+.homepage-main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+//* FEATURED TITLE BARS IN PINK / WHITE
+
+.featured-list {
+  font-family: 'Quicksand', sans-serif;
+  // font-family: 'Questrial', sans-serif;
+  // font-family: 'Hind Siliguri', sans-serif;
+  font-size: 30px;
+  padding: 2px 2px 2px 18px;
+  background-color: #bcdea6;
+  color: white;
+  border-radius: 5px;
+}
+
+//* FEATURED SECTION
+//* BROWSE MAP SECTION
+//* RECOMMENDED SECTION
+//* CATEGORIES SECTION
+
+.homepage-slider-section,
+.mapbox-wrapper,
+.homepage-recommended-section,
+.homepage-categories-section
+  {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+//* FEATURED SUB-SECTION
+//* BROWSE MAP SUB-SECTION
+//* RECOMMENDED SUB-SECTION
+//* CATEGORIES SUB-SECTION
+
+.map-container,
+.homepage-user-recommended-wrapper,
+.slider-container,
+.homepage-categories-container {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+//* FEATURED
+
+
+//* MAP SECTION
+
+.map-container {
+  justify-content: center;
+  height: 380px;
+  div {
+    border-radius: 5px;
+  }
+}
+
+
+//* RECOMMENDED
+
+.tag-wrapper {
+  height: 300px;
+  display: flex;
+  align-items: space-around;
+}
+
+.user-tags{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.user-label-tags{
+  font-family: 'Quicksand', sans-serif;
+  padding: .8rem 1.25rem;
+  border: 1px solid grey;
+  margin-right: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: grey;
+}
+
+.user-label-tags:hover {
+  background-color: rgba(238, 238, 238, 1);
+}
+
+
+//* CATEGORIES SECTION
+
+.homepage-categories-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.img-wrapper {
+  transition: .3s ease-in-out
+}
+
+.img-wrapper:hover{
+  transform: scale(1.05); 
+
+}
+
+.category-wrapper {
+  position: relative;
+  width: 90px;     
+  height: 75px;
+  overflow: hidden;
+  margin-left: 40px;
+  border: 5px solid white;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50%;     
+    left: 50%;
+    transform: translate( -50%, -50%);
+  }
+}
+
+
+.categories-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  margin-left: 10px;
+  width: 90%;
+  .column{
+    .card {
+      display: flex;
+      align-items: center;
+      h6{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        width: 120px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.new-space-form-container {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // height: 60vh;
+  margin: 20px 0 0 0;
+  width: 470px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3%;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.05);
+  padding: 15px;
+  margin-left: 325px;
+  h1 {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    margin: 20px 0 20px 0;
+    color: #FA9A81;
+  }
+}
+
+.new-container {
+  display: flex;
+  justify-content: center;
+  align-items: cetner;
+}
+
+
+@media only screen and (max-width: 880px) {
+  .new-space-form-container {
+    // justify-content: center;
+    margin: 0;
+  }
+}

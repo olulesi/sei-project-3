@@ -1,0 +1,17 @@
+.index-popup-image img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.mapboxgl-popup-close-button {
+  display: none;
+}
+
+.mapboxgl-popup-content {
+  border-radius: none;
+}
+
+// .city-space-icon {
+//   background-image: url(../assets/CitySpaceFavicon.png)
+// }

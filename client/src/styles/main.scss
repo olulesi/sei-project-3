@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import '_slick.scss';
+@import '_slickTheme.scss';
+@import 'spaceIndexView.scss';
+@import '_showPage.scss';
+@import '_spaceCategories.scss';
+@import '_profileInfo.scss';
+@import '_registerAndLogin.scss';
+@import '_indexMap.scss';
+@import '_landingPage.scss';
+@import '_navBar.scss';
+@import '_newAndEditPage.scss';
+
+.container {
+  padding-top: 57px;
+}
+
+
+.homepage-card-name {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-box {
+  width: 400px;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 280px;     
+  height: 240px;
+  overflow: hidden;
+  margin-left: 10px;
+  border: 5px solid white;
+  // border-radius: 10px;
+
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50%;     
+    left: 50%;
+    transform: translate( -50%, -50%);
+    border: 5px solid white;
+    border-radius: 5px;
+  }
+}
+img.images {
+  height: 100%;
+  width: auto;
+}
+// .slider-wrapper{
+//   display: flex;
+//   justify-content: space-around;
+// }
+//* Show Page
+
+
+
+.profile-icon{
+  margin-right: 20px;
+  width: 50px;
+}
+
+
+.navbar-item{
+  margin-left: 20px;
+}
+
+
+
+
+.footer {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  padding: 60px 0 20px 0;
+}
+
+
+// *ANIMATIONS
+
+
+//* ANIMATION, SLIDE IN, FOR LOGIN PAGE, PROFILE AND SHOWPAGE
+.slide-in{
+  animation: slide-in 1.3s ease;
+}
+
+//USED ON FEATURE PAGE AND SIGNUP PAGE 
+
+@keyframes fly-in {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+// // LOG IN PAGE
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+//LOG IN PAGE PROFILE AND SHOWPAGE
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+// INDEX PAGE 
+@keyframes change {
+  0%{background-position:30% 0%}
+  50%{background-position:71% 100%}
+  100%{background-position:30% 0%}
+}
