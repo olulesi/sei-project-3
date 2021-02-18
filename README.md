@@ -73,7 +73,7 @@ on the root level to install dependencies for the backend
 
 ## Demonstration of the App Flow 
 
-<img src="client/src/imagesReadMe/project3AppFlow.gif" />
+<img src="client/src/imagesReadMe/appFlow3.gif" />
 
 #### Landing Page: 
 
