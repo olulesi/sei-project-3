@@ -298,6 +298,8 @@ Since we had a idea of the theme with the font Ricky chose on google fonts and l
 
 I personally worked on the use of  react-stonecutter for the categories page in order to show all the spaces as cards with animations and transitions on click of each category. 
 
+<img src="client/src/imagesReadMe/project3ExplorePage.gif"/>
+
 ```
 <div className="grid-wrapper">
           {spaces ?
@@ -341,7 +343,7 @@ I personally worked on the use of  react-stonecutter for the categories page in 
 ```
 
 
-I also added the over effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo element.
+I also added the hover effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo element.
 Insert Categories page video
 
 
