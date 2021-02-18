@@ -72,6 +72,9 @@ on the root level to install dependencies for the backend
 * MongoDb Atlas
 
 ## Demonstration of the App Flow 
+
+<img src="client/src/imagesReadMe/project3AppFlow.gif" />
+
 #### Landing Page: 
 
 * The user is prompted to find their favourite spots 
@@ -109,8 +112,11 @@ on the root level to install dependencies for the backend
 ## Process
 
 ### Plan
+
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.52.50.png" height="350"/>
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.53.05 copy.png" height="350" />
  
-We first started brain storming ideas trying to find out what concept we wanted to revolve are app around.
+We first started brain storming ideas trying to find out what concept we wanted to revolve are app around and voting on ideas we liked the best since we were a 4.
 
 Once we came up with a concept of sharing your favourite outdoor spots in London we opened a shared google document to further elaborate on a concept with a brand image and solidifying the direction we were going in.
 
@@ -118,10 +124,13 @@ We used this planning document to list out dependencies to used as we were asked
 
 We also stared drafting out the models and requests we will be making on the back end 
 
-Insert Doc pictures
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.10.56.png" height="350" width="350" />
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.11.09.png" height="350" width="350" />
 
 
 ### Division of Work
+
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.47.48.png"/>
 
 
 For the division of work we used Trello to label certain tasks as there were so many things to cover on the front end back end as well as the app’s features. 
