@@ -113,8 +113,8 @@ on the root level to install dependencies for the backend
 
 ### Plan
 
-<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.52.50.png" height="350"/>
-<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.53.05 copy.png" height="350" />
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.52.50.png"/>
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.53.05 copy.png"/>
  
 We first started brain storming ideas trying to find out what concept we wanted to revolve are app around and voting on ideas we liked the best since we were a 4.
 
@@ -124,8 +124,8 @@ We used this planning document to list out dependencies to used as we were asked
 
 We also stared drafting out the models and requests we will be making on the back end 
 
-<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.10.56.png" height="350" width="350" />
-<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.11.09.png" height="350" width="350" />
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.10.56.png" />
+<img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.11.09.png" />
 
 
 ### Division of Work
@@ -206,6 +206,8 @@ const spaceDataWithOwners = spaceData.map(space => {
 ### Front End 
 
 On the front end I was tasked with Edwyn in hooking up the index page with the backend seeds and users.  As well as using the 3rd party package *react-slick* for the slider feature.
+
+<img src="client/src/imagesReadMe/project3Slider.gif"/>
 
 ```
 return (
