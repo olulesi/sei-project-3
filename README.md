@@ -143,7 +143,7 @@ so they are all in the done section.
 
 ### Back End (Comments and Liking Functionality)
 
-On the Back End I worked on adding the comments and favourite by to the model of the city space.
+On the Back End I worked on adding the comments and favourite by to the citySpace model.
 
 ```
 export const tagCategories = [
@@ -181,7 +181,7 @@ const citySpaceSchema = new mongoose.Schema({
 
 ### Seeds and Users
 
-Since are web app revolved around a community of users interacting with different spaces.  We need to create faker users. In addition using *Faker.js*(3rd party dependency to provide faker users and details) we needed to assign are fake users to different spaces we had made as seeds. Also assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
+Since are web app revolved around a community of users interacting with different spaces.  We need to create faker users. This was in order to populate the web page when real users interact with the owners of the spaces they liked or commented on.  In order to use *Faker.js*(3rd party dependency to provide faker users and details) we needed to assign are fake users to different spaces we had made as seeds. Also assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
 
 I was able to do this with Ricky on the db/seeds.js file 
 
