@@ -3,9 +3,9 @@
 ## Overview
 For my third sei-project at General Assembly we were given a week as a group project to build a MERN stack application that requires authentication. 
 
-The concept of are app City Space is an application where we aim to encourage people to share and discover their favourite outdoor spots in London. Users can sign up and view various outdoor spots based on the tags provided upon registering or what location they want to look for on the map box. Users can click on all spots to have a detailed view of the spot with the option to like, comment and view the profile on the creator as well as creating their own space and adding it to the database.
+The concept of are app City Space is an application where we aim to encourage people to share and discover their favourite outdoor spots in London. Users can sign up and view various outdoor spots based on the tags provided upon registering or what location they want to look for on the map box. Users can click on all spots to have a detailed view of a specific space with the option to like, comment and view the profile of the creator as well as creating their own space and adding it to the collection on the explore page.
 
-The app has been deployed with TBD and is available here.
+The app has been deployed with heroku and Mongo-atlas is available [here.](https://cityspace-site.herokuapp.com/)
 
 
 ## Brief
@@ -82,8 +82,8 @@ on the root level to install dependencies for the backend
 
 #### Sign Up  and LogIn Page:
 
-* The user has to fill the sign up form  which requires them to select the tags they prefer or what kind of space they are into. 
-* There is also a link to the log in page if they have an account.
+* The user has to fill the sign up form  which requires them to select the tags they prefer so what kind of space they are into. 
+* There is also a link to the log in page if they have an account already.
 
 #### Index page:
 
@@ -116,13 +116,13 @@ on the root level to install dependencies for the backend
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.52.50.png"/>
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.53.05 copy.png"/>
  
-We first started brain storming ideas trying to find out what concept we wanted to revolve are app around and voting on ideas we liked the best since we were a 4.
+We first started brain storming ideas trying to find out what concept we wanted to revolve are app around and voting on ideas we liked the best since we were a group of 4.
 
 Once we came up with a concept of sharing your favourite outdoor spots in London we opened a shared google document to further elaborate on a concept with a brand image and solidifying the direction we were going in.
 
-We used this planning document to list out dependencies to used as we were asked not to use Bulma CSS framework.
+We used this planning document to list out dependencies we were planning on using as we were asked not to use Bulma CSS framework for this project specifically.
 
-We also stared drafting out the models and requests we will be making on the back end 
+We also stared drafting out the models and requests we will be making on the back end. 
 
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.10.56.png" />
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.11.09.png" />
@@ -133,9 +133,9 @@ We also stared drafting out the models and requests we will be making on the bac
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.47.48.png"/>
 
 
-For the division of work we used Trello to label certain tasks as there were so many things to cover on the front end back end as well as the app’s features. 
+For the division of work we used Trello to label certain tasks as there were so many things to cover on the front end, back end as well as the app’s features. 
 
-Since we were 4 there were a lot of task that we assigned 2 people to pair coded a specific component or feature. Or One person would work on the index page and another person would build on the code pushed allowing use to utilise git hub with are large number of commits.
+Since we were 4 there were a lot of task that we assigned 2 people to pair coded a specific component or feature to save time or One person would work on a page and another person would build on the code pushed later on allowing use to utilise git hub with are large number of commits.
 
 Labels were used to assign tasks during the early stages of the project.
 so they are all in the done section.
@@ -181,7 +181,7 @@ const citySpaceSchema = new mongoose.Schema({
 
 ### Seeds and Users
 
-Since are web app revolved around a community of users interacting with different spaces.  We need to create faker users. This was in order to populate the web page when real users interact with the owners of the spaces they liked or commented on.  In order to use *Faker.js*(3rd party dependency to provide faker users and details) we needed to assign are fake users to different spaces we had made as seeds. Also assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
+Since are web app revolved around a community of users interacting with different spaces.  We needed to create faker users. This was in order to populate the web page for when real users interact with the owners of the spaces they liked or commented on.  This required the 3rd party dependency to provide faker users and details faker.js. In order to use  *Faker.js*  we needed to assign are fake users to different spaces we had made as seeds. Also assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
 
 I was able to do this with Ricky on the db/seeds.js file 
 
@@ -251,7 +251,7 @@ export default SpaceSlider
 
 ```
 
-Since there were so many features on the index page we split a lot of are features into its own component to help in assigning tasks without causing conflicts.
+Since there were so many features on the index page we split a lot of are features into its own component to help in dividing the work without causing conflicts.
 
 ```
 function SpaceIndexView() {
@@ -342,11 +342,7 @@ I personally worked on the use of  react-stonecutter for the categories page in 
         </div>
 ```
 
-
 I also added the hover effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo element.
-Insert Categories page video
-
-
 In addition to the explore page I added key frame animations to all the pages of the ease the transition onto each page to create a smoother feel to the app 
 
 ```
@@ -416,7 +412,7 @@ In addition to the explore page I added key frame animations to all the pages of
 For deployment we had to set up an account with [MongoDb Atlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_united_kingdom_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624581&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5cNTIp5veBpGsfyjBbyO2wsmBeHDXw72hRE_wZw4nxiBw7U8C0GxKMaAiVAEALw_wcB) in order to run are database when the website is live on [Heroku](https://dashboard.heroku.com/apps)
 
 ## Challenges
-* *Team Git*:  This was a completely new experience creating branches and pushing your work to the development branch for the others pull. Dealing with conflicts was definitely something that required adjustment, but with the help of my team we were able to work each other through it so there were not major errors or detrimental conflicts in are code.
+* *Team Git*:  This was a completely new experience creating branches and pushing your work to the development branch for my other teammates pull. Dealing with conflicts was definitely something that required adjustment, but with the help of my team we were able to work each other through it so there were not major errors or detrimental conflicts in are code.
 
 
 ## Wins
@@ -426,7 +422,7 @@ For deployment we had to set up an account with [MongoDb Atlas](https://www.mong
 * *Utilising react-stonecutter*: Being able to use the react stonecutter dependency for the grid helped add multiple animations to the explore page improving the aesthetics of the site and helped me build from the animations I was able to do on project 2 
 
 ## What I Learned 
-* *Utilising React 3rd Party packages:* I learnt how to read react package’s docs in order to use their dependency how I want with Semantic, react-slick, react-stonecutter and fakerjs.
+* *Utilising React 3rd Party packages:* I learnt how to read react package documentatuib in order to use their dependency how I want with dependencies such as Semantic, react-slick, react-stonecutter and fakerjs.
 * *MERN stack application*: Being able to work on both the front end and the back end helped me improve my backend skills with Mongo, Node and Express as well as React.
 
 ## Future Features
