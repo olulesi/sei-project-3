@@ -1,11 +1,11 @@
 # Project 3 - City Space
 
 ## Overview
-For my third sei-project at General Assembly we were given a week as a group project to build a MERN stack application that requires authentication. 
+For my third sei-project at General Assembly, we were given a week as a group project to build a MERN stack application that requires authentication. 
 
-The concept of are app City Space is an application where we aim to encourage people to share and discover their favourite outdoor spots in London. Users can sign up and view various outdoor spots based on the tags provided upon registering or what location they want to look for on the map box. Users can click on all spots to have a detailed view of a specific space with the option to like, comment and view the profile of the creator as well as creating their own space and adding it to the collection on the explore page.
+City Space is an application where we aim to encourage people to share and discover their favourite outdoor spots in London. Users can sign up and view various outdoor spots based on the tags provided upon registering or what location they want to look for on the map box. Users can click on all spots to have a detailed view of a specific space with the option to like, comment and view the profile of the creator as well as creating their own space and adding it to the collection on the explore page.
 
-The app has been deployed with heroku and Mongo-atlas is available [here.](https://cityspace-site.herokuapp.com/)
+The app has been deployed with Heroku and Mongo-atlas is available [here.](https://cityspace-site.herokuapp.com/)
 
 
 ## Brief
@@ -24,7 +24,7 @@ The app has been deployed with heroku and Mongo-atlas is available [here.](https
 2. In CLI, run *`yarn`*
 on the root level to install dependencies for the backend
 3. In CLI,  navigate to client folder cd client and run the same command *`yarn`* to install dependencies
-4. Run command *`yarn dev-fullstack`* on the root level to run program in your local environment
+4. Run command *`yarn dev-fullstack`* on the root level to run the program in your local environment
 
 ## Technologies Used
 ### Front End
@@ -77,25 +77,25 @@ on the root level to install dependencies for the backend
 
 #### Landing Page: 
 
-* The user is prompted to find their favourite spots 
-* Log in and register buttons on the nav bar with a slide and fade in animation
+* The user is prompted to find their favourite spots. 
+* Log in and register buttons on the navbar with a slide and fade in animation.
 
 #### Sign Up  and LogIn Page:
 
-* The user has to fill the sign up form  which requires them to select the tags they prefer so what kind of space they are into. 
-* There is also a link to the log in page if they have an account already.
+* The user has to fill the signup form which requires them to select the tags they prefer so what kind of space they are into. 
+* There is also a link to the login page if they have an account already.
 
 #### Index page:
 
-* If the user is signed in there is a welcome banner with there username next to it if logged in 
-* A featured list of the best spots in London
-* A map box of all spots on the map of London 
+* If the user is signed in there is a welcome banner with there username next to it if logged in.
+* A featured list of the best spots in London.
+* A map box of all spots on the map of London.
 * If the user is logged in there is also a recommendation carousel that displays recommended spots based on their tag preferences.
 
 #### Detailed view of Space:
 
-* The user can see the space description with the tags it related to
-* Toggle over to the map view and the photo of the space incase the user wanted to see where it is located.
+* The user can see the space description with the tags it related to.
+* Toggle over to the map view and the photo of the space in case the user wanted to see where it is located.
 * User can like, comment or view the creators profile if logged in 
 * Similar Places feature that shows a carousel of similar spaces beneath 
 
@@ -143,7 +143,7 @@ so they are all in the done section.
 
 ### Back End (Comments and Liking Functionality)
 
-On the Back End I worked on adding the comments and favourite by to the citySpace model.
+On the Back End, I worked on adding the comments and favourite by to the CitySpace model.
 
 ```
 export const tagCategories = [
@@ -181,7 +181,7 @@ const citySpaceSchema = new mongoose.Schema({
 
 ### Seeds and Users
 
-Since are web app revolved around a community of users interacting with different spaces.  We needed to create faker users. This was in order to populate the web page for when real users interact with the owners of the spaces they liked or commented on.  This required the 3rd party dependency to provide faker users and details faker.js. In order to use  *Faker.js*  we needed to assign are fake users to different spaces we had made as seeds. Also assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
+Since our web app revolved around a community of users interacting with different spaces.  We needed to create faker users. This was in order to populate the web page for when real users interact with the owners of the spaces they liked or commented on.  This required the 3rd party dependency to provide faker users and details faker.js. In order to use  *Faker.js*  we needed to assign are fake users to different spaces we had made as seeds. Also, assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
 
 I was able to do this with Ricky on the db/seeds.js file 
 
@@ -205,7 +205,7 @@ const spaceDataWithOwners = spaceData.map(space => {
 
 ### Front End 
 
-On the front end I was tasked with Edwyn in hooking up the index page with the backend seeds and users.  As well as using the 3rd party package *react-slick* for the slider feature.
+On the front end, I was tasked with Edwyn in hooking up the index page with the backend seeds and users.  As well as using the 3rd party package *react-slick* for the slider feature.
 
 <img src="client/src/imagesReadMe/project3Slider.gif"/>
 
@@ -294,9 +294,9 @@ export default SpaceIndexView
 
 ### Styling and Animations
 
-Since we had a idea of the theme with the font Ricky chose on google fonts and logo he made as well we kept the same theme throughout the website with the title with the use of semantic ui react as  structure of the landing page and features of buttons on the nav bar.
+Since we had an idea of the theme with the font Ricky chose on google fonts and logo he made as well we kept the same theme throughout the website with the title with the use of semantic ui react as the structure of the landing page and features of buttons on the navbar.
 
-I personally worked on the use of  react-stonecutter for the categories page in order to show all the spaces as cards with animations and transitions on click of each category. 
+I personally worked on the use of react-stonecutter for the categories page in order to show all the spaces as cards with animations and transitions on click of each category. 
 
 <img src="client/src/imagesReadMe/project3ExplorePage.gif"/>
 
@@ -342,8 +342,8 @@ I personally worked on the use of  react-stonecutter for the categories page in 
         </div>
 ```
 
-I also added the hover effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo element.
-In addition to the explore page I added key frame animations to all the pages of the ease the transition onto each page to create a smoother feel to the app 
+I also added the hover effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo-element.
+In addition to the explore page, I added key frame animations to all the pages the ease the transition onto each page to create a smoother feel to the app 
 
 ```
 // *ANIMATIONS
@@ -409,20 +409,20 @@ In addition to the explore page I added key frame animations to all the pages of
 
 ### Deployment
 
-For deployment we had to set up an account with [MongoDb Atlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_united_kingdom_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624581&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5cNTIp5veBpGsfyjBbyO2wsmBeHDXw72hRE_wZw4nxiBw7U8C0GxKMaAiVAEALw_wcB) in order to run are database when the website is live on [Heroku](https://dashboard.heroku.com/apps)
+For deployment we had to set up an account with [MongoDb Atlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_united_kingdom_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624581&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5cNTIp5veBpGsfyjBbyO2wsmBeHDXw72hRE_wZw4nxiBw7U8C0GxKMaAiVAEALw_wcB) in order to run our database when the website is live on [Heroku](https://dashboard.heroku.com/apps)
 
 ## Challenges
-* *Team Git*:  This was a completely new experience creating branches and pushing your work to the development branch for my other teammates pull. Dealing with conflicts was definitely something that required adjustment, but with the help of my team we were able to work each other through it so there were not major errors or detrimental conflicts in are code.
+* *Team Git*:  This was a completely new experience creating branches and pushing your work to the development branch for my other teammates pull. Dealing with conflicts was definitely something that required adjustment, but with the help of my team we were able to work each other through it so there were no major errors or detrimental conflicts in are code.
 
 
 ## Wins
-* *Working with my Team*: I loved working with all my team members we had the patience to help each other whenever and the work rate to give an extra hour I couldn’t of been happier with the group of individuals i worked with.
-* *Website design*: We came together with a well thought out concept that showed through out the website the styling was consistent and professional which we targets we set for ourselves as a group.
-* *Populating Users with data and seeds*: A major part of are website was making the website feel like it had been used and it wasn’t an unshared site so applying the map and for loop methods to populate the user data helped making it a Professional site
+* *Working with my Team*: I loved working with all my team members we had the patience to help each other whenever and the work rate to give an extra hour I couldn’t of been happier with the group of individuals I worked with.
+* *Website design*: We came together with a well thought out concept that showed throughout the website the styling was consistent and professional which we target we set for ourselves as a group.
+* *Populating Users with data and seeds*: A major part of our website was making the website feel like it had been used and it wasn’t an unshared site so applying the map and for loop, methods to populate the user data helped to make it a Professional site
 * *Utilising react-stonecutter*: Being able to use the react stonecutter dependency for the grid helped add multiple animations to the explore page improving the aesthetics of the site and helped me build from the animations I was able to do on project 2 
 
 ## What I Learned 
-* *Utilising React 3rd Party packages:* I learnt how to read react package documentatuib in order to use their dependency how I want with dependencies such as Semantic, react-slick, react-stonecutter and fakerjs.
+* *Utilising React 3rd Party packages:* I learnt how to read react package documentation in order to use their dependency how I want with dependencies such as Semantic, react-slick, react-stonecutter and Fakerjs.
 * *MERN stack application*: Being able to work on both the front end and the back end helped me improve my backend skills with Mongo, Node and Express as well as React.
 
 ## Future Features
