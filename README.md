@@ -9,10 +9,10 @@ The app has been deployed with Heroku and Mongo-atlas is available [here.](https
 
 
 ## Brief
-* *Build a full-stack application* by making your own backend and your own front-end
-* *Use an Express API* to serve your data from a Mongo database
-* *Consume your API with a separate front-end* built with React
-* *Be a complete product* which most likely means multiple relationships and CRUD functionality for at least a couple of models
+* *Build a full-stack application* by making your own backend and your own front-end.
+* *Use an Express API* to serve your data from a Mongo database.
+* *Consume your API with a separate front-end* built with React.
+* *Be a complete product* which most likely means multiple relationships and CRUD functionality for at least a couple of models.
 
 ## Collaborators
 * Elsie Down - [Github](https://github.com/elsiedown)
@@ -20,11 +20,11 @@ The app has been deployed with Heroku and Mongo-atlas is available [here.](https
 * Edwyn Abi-Acar - [Github](https://github.com/Edwyn26)
 
 ## Getting Started
-1. 1. Access the source code via the ‘Clone or download’ button
-2. In CLI, run *`yarn`*
-on the root level to install dependencies for the backend
-3. In CLI,  navigate to client folder cd client and run the same command *`yarn`* to install dependencies
-4. Run command *`yarn dev-fullstack`* on the root level to run the program in your local environment
+1. Access the source code via the ‘Clone or download’ button.
+2. In CLI, run *`yarn`*.
+on the root level to install dependencies for the backend.
+3. In CLI,  navigate to client folder cd client and run the same command *`yarn`* to install dependencies.
+4. Run command *`yarn dev-fullstack`* on the root level to run the program in your local environment.
 
 ## Technologies Used
 ### Front End
@@ -37,23 +37,23 @@ on the root level to install dependencies for the backend
 * React-Router-Dom
 * Semantic-ui-react
 * React-Slick
-*  Axios 
-* react-stonecutter
+* Axios 
+* Stone Cutter (react-stonecutter)
 
 
 ### Back End
 
-*  Node 
+* Node 
 * MapBox
 * Bcrypt
-*  Cloudinary 
-*  Express 
+* Cloudinary 
+* Express 
 * Faker.js
 * JsonWebToken
-*  Nodemon
-*  Mongoose
+* Nodemon
+* Mongoose
 * Mongoose-unique-validator
-*  MongoDB
+* MongoDB
 
 
 ### Dev Tools
@@ -82,7 +82,7 @@ on the root level to install dependencies for the backend
 
 #### Sign Up  and LogIn Page:
 
-* The user has to fill the signup form which requires them to select the tags they prefer so what kind of space they are into. 
+* The user has to fill the signup form which requires them to select the tags they prefer so what kind of space they prefer. 
 * There is also a link to the login page if they have an account already.
 
 #### Index page:
@@ -96,8 +96,8 @@ on the root level to install dependencies for the backend
 
 * The user can see the space description with the tags it related to.
 * Toggle over to the map view and the photo of the space in case the user wanted to see where it is located.
-* User can like, comment or view the creators profile if logged in 
-* Similar Places feature that shows a carousel of similar spaces beneath 
+* User can like, comment or view the creators profile if logged in.
+* Similar Places feature that shows a carousel of similar spaces beneath.
 
 #### Profile Page or User Profile:
 
@@ -116,13 +116,13 @@ on the root level to install dependencies for the backend
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.52.50.png"/>
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 22.53.05 copy.png"/>
  
-We first started brain storming ideas trying to find out what concept we wanted to revolve are app around and voting on ideas we liked the best since we were a group of 4.
+We first started brainstorming ideas trying to find out what concept we wanted to revolve our app around and voting on ideas we liked the best since we were a group of 4.
 
 Once we came up with a concept of sharing your favourite outdoor spots in London we opened a shared google document to further elaborate on a concept with a brand image and solidifying the direction we were going in.
 
-We used this planning document to list out dependencies we were planning on using as we were asked not to use Bulma CSS framework for this project specifically.
+We used this planning document to list out dependencies we were planning on using as we were asked not to use the Bulma CSS framework for this project specifically.
 
-We also stared drafting out the models and requests we will be making on the back end. 
+We also started drafting out the models and requests we will be making on the back end. 
 
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.10.56.png" />
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.11.09.png" />
@@ -133,12 +133,14 @@ We also stared drafting out the models and requests we will be making on the bac
 <img src="client/src/imagesReadMe/Screenshot 2021-02-11 at 23.47.48.png"/>
 
 
-For the division of work we used Trello to label certain tasks as there were so many things to cover on the front end, back end as well as the app’s features. 
+For the division of work, we used Trello to label certain tasks as there were so many things to cover on the front end, back end as well as the app’s features. 
 
-Since we were 4 there were a lot of task that we assigned 2 people to pair coded a specific component or feature to save time or One person would work on a page and another person would build on the code pushed later on allowing use to utilise git hub with are large number of commits.
+Since we were 4 there was a lot of tasks that we assigned 2 people to pair coded a specific component or feature to save time or One person would work on a page and another person would build on the code pushed later on allowing us to utilise Github with a large number of commits.
+
+As a group, we all decided that everyone would be working on the back-end as well as the front-end so we could learn what was going on ourselves. Also, we decided that everyone would contribute at least 15 seeds of different spots with different categories outside of the time we spent working together. 
 
 Labels were used to assign tasks during the early stages of the project.
-so they are all in the done section.
+So they were all put in the done section.
 
 
 ### Back End (Comments and Liking Functionality)
@@ -181,7 +183,7 @@ const citySpaceSchema = new mongoose.Schema({
 
 ### Seeds and Users
 
-Since our web app revolved around a community of users interacting with different spaces.  We needed to create faker users. This was in order to populate the web page for when real users interact with the owners of the spaces they liked or commented on.  This required the 3rd party dependency to provide faker users and details faker.js. In order to use  *Faker.js*  we needed to assign are fake users to different spaces we had made as seeds. Also, assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
+Since our web app revolved around a community of users interacting with different spaces.  We needed to create faker users. This was to populate the web page for when real users interact with the owners that have spaces they liked or commented on. This required the 3rd party dependency to provide faker users and details faker.js. To use  *Faker.js*  we needed to assign our fake users to different spaces we had made as seeds. Also, assign favourite tags and favourited spaces to each fake user so when a user selects a random profile it is filled with data on the profile page not empty.
 
 I was able to do this with Ricky on the db/seeds.js file 
 
@@ -251,7 +253,7 @@ export default SpaceSlider
 
 ```
 
-Since there were so many features on the index page we split a lot of are features into its own component to help in dividing the work without causing conflicts.
+Since there were so many features on the index page we split a lot of our features into their own component to help in dividing the work without causing conflicts.
 
 ```
 function SpaceIndexView() {
@@ -294,9 +296,9 @@ export default SpaceIndexView
 
 ### Styling and Animations
 
-Since we had an idea of the theme with the font Ricky chose on google fonts and logo he made as well we kept the same theme throughout the website with the title with the use of semantic ui react as the structure of the landing page and features of buttons on the navbar.
+Since we had an idea of the theme with the font Ricky chose on google fonts and the logo he made as well we kept the same theme throughout the website with the title with the use of semantic-ui-react as the structure having the landing page and features of buttons on the navbar.
 
-I personally worked on the use of react-stonecutter for the categories page in order to show all the spaces as cards with animations and transitions on click of each category. 
+I personally worked on the use of react-stonecutter for the categories page to show all the spaces as cards with animations and transitions on click for each category. 
 
 <img src="client/src/imagesReadMe/project3ExplorePage.gif"/>
 
@@ -342,8 +344,8 @@ I personally worked on the use of react-stonecutter for the categories page in o
         </div>
 ```
 
-I also added the hover effect for each card on the explore page to show the name of the space with the number of likes using the before pseudo-element.
-In addition to the explore page, I added key frame animations to all the pages the ease the transition onto each page to create a smoother feel to the app 
+I also added the hover effect for each card on the explore page to show the name for the space with the number of likes using the before pseudo-element.
+In addition to the explore page, I added keyframe animations to all the pages the ease the transition onto each page to create a smoother feel to the app 
 
 ```
 // *ANIMATIONS
@@ -409,20 +411,20 @@ In addition to the explore page, I added key frame animations to all the pages t
 
 ### Deployment
 
-For deployment we had to set up an account with [MongoDb Atlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_united_kingdom_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624581&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5cNTIp5veBpGsfyjBbyO2wsmBeHDXw72hRE_wZw4nxiBw7U8C0GxKMaAiVAEALw_wcB) in order to run our database when the website is live on [Heroku](https://dashboard.heroku.com/apps)
+For deployment, we had to set up an account with [MongoDb Atlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_united_kingdom_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624581&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5cNTIp5veBpGsfyjBbyO2wsmBeHDXw72hRE_wZw4nxiBw7U8C0GxKMaAiVAEALw_wcB) to run our database when the website is live on [Heroku](https://dashboard.heroku.com/apps)
 
 ## Challenges
-* *Team Git*:  This was a completely new experience creating branches and pushing your work to the development branch for my other teammates pull. Dealing with conflicts was definitely something that required adjustment, but with the help of my team we were able to work each other through it so there were no major errors or detrimental conflicts in are code.
+* *Team Git*: Using Git as a team was a completely new experience. The process of creating branches and pushing your work to the development branch for my other teammates pull required a lot of commands sent on the terminal that caused errors with the slightest mistake. Dealing with it was definitely something that required adjustment, but with help from my team, we were able to guide each other through it so there were no major errors or detrimental conflicts in our code.
 
 
 ## Wins
-* *Working with my Team*: I loved working with all my team members we had the patience to help each other whenever and the work rate to give an extra hour I couldn’t of been happier with the group of individuals I worked with.
+* *Working with my Team*: I loved working with all my team members we had the patience to help each other whenever and the work rate to give an extra hour I couldn’t have been happier with the group of individuals I worked with.
 * *Website design*: We came together with a well thought out concept that showed throughout the website the styling was consistent and professional which we target we set for ourselves as a group.
 * *Populating Users with data and seeds*: A major part of our website was making the website feel like it had been used and it wasn’t an unshared site so applying the map and for loop, methods to populate the user data helped to make it a Professional site
 * *Utilising react-stonecutter*: Being able to use the react stonecutter dependency for the grid helped add multiple animations to the explore page improving the aesthetics of the site and helped me build from the animations I was able to do on project 2 
 
 ## What I Learned 
-* *Utilising React 3rd Party packages:* I learnt how to read react package documentation in order to use their dependency how I want with dependencies such as Semantic, react-slick, react-stonecutter and Fakerjs.
+* *Utilising React 3rd Party packages:* I learnt how to read react package documentation to use their dependency how I wanted with dependencies such as Semantic, react-slick, react-stonecutter and Fakerjs.
 * *MERN stack application*: Being able to work on both the front end and the back end helped me improve my backend skills with Mongo, Node and Express as well as React.
 
 ## Future Features
