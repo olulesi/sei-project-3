@@ -105,9 +105,8 @@ on the root level to install dependencies for the backend.
 
 #### Explore Page:
  
-* A index view of all spaces and a filtered list of the spaces based on 
-* category with the name and number of likes of each space when hoovered
-* Transitions to different categories upon clicking a different category
+* A index view of all spaces and a filtered list of the spaces based on category with the name and number of likes of each space when hoovered.
+* Transitions to different categories upon clicking a different category.
 
 ## Process
 
@@ -345,7 +344,7 @@ I personally worked on the use of react-stonecutter for the categories page to s
 ```
 
 I also added the hover effect for each card on the explore page to show the name for the space with the number of likes using the before pseudo-element.
-In addition to the explore page, I added keyframe animations to all the pages the ease the transition onto each page to create a smoother feel to the app 
+In addition to the explore page, I added keyframe animations to all the pages the ease the transition onto each page to create a smoother feel to the app. 
 
 ```
 // *ANIMATIONS
@@ -420,8 +419,8 @@ For deployment, we had to set up an account with [MongoDb Atlas](https://www.mon
 ## Wins
 * *Working with my Team*: I loved working with all my team members we had the patience to help each other whenever and the work rate to give an extra hour I couldn’t have been happier with the group of individuals I worked with.
 * *Website design*: We came together with a well thought out concept that showed throughout the website the styling was consistent and professional which we target we set for ourselves as a group.
-* *Populating Users with data and seeds*: A major part of our website was making the website feel like it had been used and it wasn’t an unshared site so applying the map and for loop, methods to populate the user data helped to make it a Professional site
-* *Utilising react-stonecutter*: Being able to use the react stonecutter dependency for the grid helped add multiple animations to the explore page improving the aesthetics of the site and helped me build from the animations I was able to do on project 2 
+* *Populating Users with data and seeds*: A major part of our website was making the website feel like it had been used and it wasn’t an unshared site so applying the map and for loop, methods to populate the user data helped to make it a Professional site.
+* *Utilising react-stonecutter*: Being able to use the react stonecutter dependency for the grid helped add multiple animations to the explore page improving the aesthetics of the site and helped me build from the animations I was able to do on project 2. 
 
 ## What I Learned 
 * *Utilising React 3rd Party packages:* I learnt how to read react package documentation to use their dependency how I wanted with dependencies such as Semantic, react-slick, react-stonecutter and Fakerjs.
