@@ -73,7 +73,7 @@ on the root level to install dependencies for the backend.
 
 ## Demonstration of the App Flow 
 
-<img src="images/appFlow3.gif" />
+<img src="Images/appFlow3.gif" />
 
 #### Landing Page: 
 
@@ -112,8 +112,8 @@ on the root level to install dependencies for the backend.
 
 ### Plan
 
-<img src="images/Screenshot 2021-02-11 at 22.52.50.png"/>
-<img src="images/Screenshot 2021-02-11 at 22.53.05 copy.png"/>
+<img src="Images/Screenshot 2021-02-11 at 22.52.50.png"/>
+<img src="Images/Screenshot 2021-02-11 at 22.53.05 copy.png"/>
  
 We first started brainstorming ideas trying to find out what concept we wanted to revolve our app around and voting on ideas we liked the best since we were a group of 4.
 
@@ -123,13 +123,13 @@ We used this planning document to list out dependencies we were planning on usin
 
 We also started drafting out the models and requests we will be making on the back end. 
 
-<img src="images/Screenshot 2021-02-11 at 23.10.56.png" />
-<img src="images/Screenshot 2021-02-11 at 23.11.09.png" />
+<img src="Images/Screenshot 2021-02-11 at 23.10.56.png" />
+<img src="Images/Screenshot 2021-02-11 at 23.11.09.png" />
 
 
 ### Division of Work
 
-<img src="images/Screenshot 2021-02-11 at 23.47.48.png"/>
+<img src="Images/Screenshot 2021-02-11 at 23.47.48.png"/>
 
 
 For the division of work, we used Trello to label certain tasks as there were so many things to cover on the front end, back end as well as the app’s features. 
@@ -208,7 +208,7 @@ const spaceDataWithOwners = spaceData.map(space => {
 
 On the front end, I was tasked with Edwyn in hooking up the index page with the backend seeds and users.  As well as using the 3rd party package *react-slick* for the slider feature.
 
-<img src="images/project3Slider.gif"/>
+<img src="Images/project3Slider.gif"/>
 
 ```
 return (
@@ -299,7 +299,7 @@ Since we had an idea of the theme with the font Ricky chose on google fonts and 
 
 I personally worked on the use of react-stonecutter for the categories page to show all the spaces as cards with animations and transitions on click for each category. 
 
-<img src="images/project3ExplorePage.gif"/>
+<img src="Images/project3ExplorePage.gif"/>
 
 ```
 <div className="grid-wrapper">
