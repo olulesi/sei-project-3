@@ -20,7 +20,7 @@ The app has been deployed with Heroku and Mongo-atlas is available [here.](https
 * Edwyn Abi-Acar - [Github](https://github.com/Edwyn26)
 
 ## Getting Started
-1. Access the source code via the ‘Clone or download’ button.
+1. Access the source code via the ‘Clone or download’ button on the master branch not the main branch.
 2. In CLI, run *`yarn`*.
 on the root level to install dependencies for the backend.
 3. In CLI,  navigate to client folder cd client and run the same command *`yarn`* to install dependencies.
